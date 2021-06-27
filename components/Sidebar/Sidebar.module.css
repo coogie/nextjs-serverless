@@ -1,0 +1,29 @@
+.sidebar {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-fg);
+  padding: var(--sidebar-padding);
+  width: 275px;
+}
+
+.groupTitle {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 1.5rem 0 0.25rem;
+  opacity: 0.65;
+  text-transform: uppercase;
+}
+
+.group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.groupItem {
+  margin-top: 0.5rem;
+}
+
+.groupLink {
+  color: inherit;
+  display: block;
+}

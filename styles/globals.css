@@ -1,3 +1,9 @@
+:root {
+  --sidebar-bg: #253644;
+  --sidebar-fg: #ffffff;
+  --sidebar-padding: 1em;
+}
+
 html,
 body {
   padding: 0;
