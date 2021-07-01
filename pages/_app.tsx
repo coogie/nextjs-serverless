@@ -1,4 +1,5 @@
 import Sidebar from '../components/Sidebar';
+import FrontendLoader from '../components/FrontendLoader';
 
 import styles from "../styles/App.module.css";
 import '../styles/normalize.css'
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
       <div className={styles.content}>
         <header className={styles.header}>
           Company Name
+          <FrontendLoader id="global-task-management" />
         </header>
         <main className={styles.main}>
           <Component {...pageProps} />
